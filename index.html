@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      div {
+        margin: 20px;
+      }
+      #random-number h2 {
+        font-size: 50px;
+      }
+      button {
+        border: 5px solid rebeccapurple;
+        padding: 10px 15px;
+        background-color: lightpink;
+        font-size: 25px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to Zeke’s Bingo Hall!</h1>
+    <div id="random-number">
+      <h2>Start the game!</h2>
+      <p id="number-saying"></p>
+      <p id="number-explanation"></p>
+    </div>
+
+    <div>
+      <button id="generate-random-number">Pick Bingo Ball</button>
+    </div>
+
+    <div id="previous-numbers"></div>
+
+    <script src="bingo.js"></script>
+  </body>
+</html>

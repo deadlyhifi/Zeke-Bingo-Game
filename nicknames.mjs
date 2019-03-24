@@ -1,15 +1,4 @@
-const maxNumber = 90;
-const previous = [];
-
-const randNumberPlaceholder = document.querySelectorAll("#random-number h2");
-const generateButton = document.getElementById("generate-random-number");
-const prevNumbersPlaceholder = document.getElementById("previous-numbers");
-const numberSayingPlaceholder = document.getElementById("number-saying");
-const numberExplanationPlaceholder = document.getElementById(
-  "number-explanation"
-);
-
-const nicknames = {
+export default {
   1: {
     saying: "Kelly’s Eye kai.",
     explanation:
@@ -304,31 +293,3 @@ const nicknames = {
   // Almost there
   // 90	Top of the shop[4]	90 is the highest (top) number in bingo. Shop refers to the entire game of bingo (and also rhymes with "top").
 };
-
-function generateRandomNumber(max = maxNumber) {
-  const number = Math.floor(Math.random() * Math.floor(max - 1)) + 1;
-  numberSayingPlaceholder.innerHTML = "";
-  numberExplanationPlaceholder.innerHTML = "";
-
-  if (previous.includes(number)) {
-    console.log("repeated: ", number);
-    generateRandomNumber();
-  } else {
-    previous.push(number);
-    console.log(nicknames[number]);
-
-    randNumberPlaceholder[0].innerHTML = number;
-
-    if (nicknames[number]) {
-      numberSayingPlaceholder.innerHTML = nicknames[number].saying;
-      numberExplanationPlaceholder.innerHTML = nicknames[number].explanation;
-    }
-
-    prevNumbersPlaceholder.innerHTML = previous.join(", ");
-    return;
-  }
-}
-
-generateButton.addEventListener("click", () => {
-  generateRandomNumber();
-});

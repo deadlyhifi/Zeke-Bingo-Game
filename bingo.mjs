@@ -3,7 +3,8 @@ import nicknames from "./nicknames.mjs";
 const maxNumber = 90;
 const previous = [];
 
-const randNumberPlaceholder = document.querySelectorAll("#random-number h2");
+const startGame = document.getElementById("start-game");
+const randNumberPlaceholder = document.getElementById("random-number");
 const generateButton = document.getElementById("generate-random-number");
 const prevNumbersPlaceholder = document.getElementById("previous-numbers");
 const numberSayingPlaceholder = document.getElementById("number-saying");
@@ -23,7 +24,7 @@ function generateRandomNumber(max = maxNumber) {
     previous.push(number);
     console.log(nicknames[number]);
 
-    randNumberPlaceholder[0].innerHTML = number;
+    randNumberPlaceholder.innerHTML = number;
 
     if (nicknames[number]) {
       numberSayingPlaceholder.innerHTML = nicknames[number].saying;
@@ -36,5 +37,6 @@ function generateRandomNumber(max = maxNumber) {
 }
 
 generateButton.addEventListener("click", () => {
+  startGame.remove();
   generateRandomNumber();
 });

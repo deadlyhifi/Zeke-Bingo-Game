@@ -2,7 +2,7 @@ export default {
   1: {
     saying: "Kelly’s Eye kai.",
     explanation:
-      'The pun is military slang; possibly a reference to Ned Kelly. After the Valiant comic strip "Kelly’s Eye" where the eponymous Kelly possessed a magic amulet. Fron Ned Kelly’s helmet, the eye slot resembling the number 1.'
+      "The pun is military slang; possibly a reference to Ned Kelly. After the Valiant comic strip “Kelly’s Eye” where the eponymous Kelly possessed a magic amulet. Fron Ned Kelly’s helmet, the eye slot resembling the number 1."
   },
   2: {
     saying: "One little duck.",
@@ -10,15 +10,15 @@ export default {
   },
   3: {
     saying: "Cup of tea.",
-    explanation: 'Rhymes with "Three".'
+    explanation: "Rhymes with “Three”."
   },
   4: {
     saying: "Knock at the door.",
-    explanation: 'Rhymes with "Four".'
+    explanation: "Rhymes with “Four”."
   },
   5: {
     saying: "Man alive.",
-    explanation: 'Rhymes with "Five".'
+    explanation: "Rhymes with “Five”."
   },
   6: {
     saying: "Tom Mix.",
@@ -30,7 +30,7 @@ export default {
   },
   8: {
     saying: "Garden gate.",
-    explanation: 'Rhymes with "Eight".'
+    explanation: "Rhymes with “Eight”."
   },
   9: {
     saying: "Doctor's Orders.",
@@ -83,7 +83,7 @@ export default {
   20: {
     saying: "One Score OR Getting Plenty",
     explanation:
-      'A reference to there being 20 units in one score. OR Rhymes with "Twenty".'
+      "A reference to there being 20 units in one score. OR Rhymes with “Twenty”."
   },
   21: {
     saying: "Key of the Door.",
@@ -92,7 +92,7 @@ export default {
   22: {
     saying: "Two little swans.",
     explanation:
-      'The numeral 22 resembles the profile of two ducks.[6] Response is often "quack, quack, quack".'
+      "The numeral 22 resembles the profile of two ducks. Response is often “quack, quack, quack”."
   },
   23: {
     saying: "The Lord is My Shepherd.",
@@ -104,7 +104,7 @@ export default {
   },
   25: {
     saying: "Duck and dive.",
-    explanation: 'Rhymes with "(Twenty) Five"'
+    explanation: "Rhymes with “(Twenty) Five”."
   },
   26: {
     saying: "Two and six, half a crown. OR A to Z.",
@@ -114,28 +114,28 @@ export default {
   27: {
     saying: "Duck and a crutch.",
     explanation:
-      "The number 2 looks like a duck (see '2') and the number 7 looks like a crutch."
+      "The number 2 looks like a duck and the number 7 looks like a crutch."
   },
   28: {
     saying: "In a state.",
-    explanation: 'Two and eight" is rhyming slang for "state".'
+    explanation: "Two and eight is rhyming slang for “state”."
   },
   29: {
     saying: "Rise and Shine.",
-    explanation: 'Rhymes with "(Twenty) Nine".'
+    explanation: "Rhymes with “(Twenty) Nine”."
   },
   30: {
     saying: "Burlington Bertie. OR Dirty Gertie",
     explanation:
-      'Reference to a music hall song of the same name composed in 1900, and a more famous parody (Burlington Bertie from Bow) written in 1915 specifically the line: "I’m Burlington Bertie I rise at ten-thirty". OR Common rhyme derived from the given name Gertrude, used as a nickname for the statue La Delivrance installed in North London in 1927. The usage was reinforced by Dirty Gertie from Bizerte, a bawdy song sung by Allied soldiers in North Africa during the Second World War.'
+      "Reference to a music hall song of the same name composed in 1900, and a more famous parody (Burlington Bertie from Bow) written in 1915 specifically the line: “I’m Burlington Bertie I rise at ten-thirty”. OR Common rhyme derived from the given name Gertrude, used as a nickname for the statue La Delivrance installed in North London in 1927. The usage was reinforced by Dirty Gertie from Bizerte, a bawdy song sung by Allied soldiers in North Africa during the Second World War."
   },
   31: {
     saying: "Get Up and Run.",
-    explanation: 'Rhymes with "(Thirty) One".'
+    explanation: "Rhymes with “(Thirty) One”."
   },
   32: {
     saying: "Buckle My Shoe.",
-    explanation: 'Rhymes with "(Thirty) Two".'
+    explanation: "Rhymes with “(Thirty) Two”."
   },
   33: {
     saying: "All the threes. OR Fish, chips and peas.",
@@ -143,7 +143,7 @@ export default {
   },
   34: {
     saying: "Ask for More.",
-    explanation: 'Rhymes with "(Thirty) Four".'
+    explanation: "Rhymes with “(Thirty) Four”."
   },
   35: {
     saying: "Jump and Jive.",
@@ -155,7 +155,7 @@ export default {
   },
   37: {
     saying: "More than Eleven.",
-    explanation: 'Rhymes with "(Thirty) Seven".'
+    explanation: "Rhymes with “(Thirty) Seven”."
   },
   38: {
     saying: "Christmas cake.",
@@ -167,15 +167,15 @@ export default {
   },
   40: {
     saying: "Life Begins.",
-    explanation: 'refers to the proverb "life begins at forty".'
+    explanation: "refers to the proverb “life begins at forty”."
   },
   41: {
     saying: "Time for Fun.",
-    explanation: 'Rhymes with "(Fourty) One".'
+    explanation: "Rhymes with “(Fourty) One”."
   },
   42: {
     saying: "Winnie the Pooh.",
-    explanation: 'Rhymes with "(Fourty) Two".'
+    explanation: "Rhymes with “(Fourty) Two”."
   },
   43: {
     saying: "Down on your knees.",
@@ -192,7 +192,7 @@ export default {
   },
   46: {
     saying: "Up to tricks.",
-    explanation: 'Rhymes with "(Fourty) Six".'
+    explanation: "Rhymes with “(Fourty) Six”."
   },
   47: {
     saying: "Four and Seven.",
@@ -214,7 +214,7 @@ export default {
   },
   51: {
     saying: "Tweak of the Thumb. OR I love my Mum.",
-    explanation: 'Rhymes with "(Fifty) One".'
+    explanation: "Rhymes with “(Fifty) One”."
   },
   52: {
     saying: "Danny La Rue. OR Chicken vindaloo. OR Deck of Cards.",
@@ -224,11 +224,11 @@ export default {
   53: {
     saying: "Here comes Herbie.",
     explanation:
-      '53 is the racing number of Herbie the VW Beetle. Players may reply "beep beep"!.'
+      "53 is the racing number of Herbie the VW Beetle. Players may reply “beep beep”!."
   },
   54: {
     saying: "Man at the door.",
-    explanation: 'Rhymes with "(Fifty) Four".'
+    explanation: "Rhymes with “(Fifty) Four”."
   },
   55: {
     saying: "All the fives.",
@@ -242,11 +242,11 @@ export default {
   57: {
     saying: "Heinz Varieties.",
     explanation:
-      'Refers to "Heinz 57", the "57 Varieties" slogan of the H. J. Heinz Company.'
+      "Refers to “Heinz 57”, the “57 Varieties” slogan of the H. J. Heinz Company."
   },
   58: {
     saying: "Make Them Wait.",
-    explanation: 'Rhymes with "(Fifty) Eight".'
+    explanation: "Rhymes with “(Fifty) Eight”."
   },
   59: {
     saying: "The Brighton Line.",
@@ -255,41 +255,136 @@ export default {
   },
   60: {
     saying: "Grandma's getting frisky.",
-    explanation: 'Pretty close to a rhyme with "sixty".'
+    explanation: "Pretty close to a rhyme with “sixty”."
+  },
+  61: {
+    saying: "Baker’s Bun.",
+    explanation: "Rhymes with “(Sixty) One”."
+  },
+  62: {
+    saying: "Tickety-boo.",
+    explanation: "Rhymes with “(Sixty) Two”."
+  },
+  63: {
+    saying: "Tickle Me.",
+    explanation: "Rhymes with “(Sixty) Three”."
+  },
+  64: {
+    saying: "Almost retired.",
+    explanation:
+      "A reference to the former British male age of mandatory retirement - specifically being one year away from it."
+  },
+  65: {
+    saying: "Retirement age, stop work.",
+    explanation:
+      "A reference to the former male British age of mandatory retirement."
+  },
+  66: {
+    saying: "Clickety click.",
+    explanation: "Rhymes with “(Sixty) Six”, almost."
+  },
+  67: {
+    saying: "Stairway to Heaven.",
+    explanation: "Coined by Andrew “CIP” Lavelle."
+  },
+  68: {
+    saying: "Pick a Mate.",
+    explanation: "Coined by Edward James Mackey II."
+  },
+  69: {
+    saying: "Anyway up, meal for two, a favourite of mine.",
+    explanation:
+      "The numbers represent the opposite if looking the other way up. This is also known as “Meal for Two”, with 69 being the order number on a takeaway or restaurant menu.."
+  },
+  70: {
+    saying: "Three Score and 10.",
+    explanation: "A “score” is 20, times 3 is 60, add 10 is 70."
+  },
+  71: {
+    saying: "Bang on the Drum.",
+    explanation: "Rhymes with “(Seventy) One”."
+  },
+  72: {
+    saying: "Danny La Rue.",
+    explanation: "Rhymes with “(Seventy) Two”."
+  },
+  73: {
+    saying: "Queen Bee. OR Under The Tree.",
+    explanation: "Lucky 3, OR Rhymes with “(Seventy) Three”."
+  },
+  74: {
+    saying: "Hit the Floor.",
+    explanation: "Coined by Ann Fitzsimons."
+  },
+  75: {
+    saying: "Strive and Strive.",
+    explanation: "It rhymes."
+  },
+  76: {
+    saying: "Trombones.",
+    explanation:
+      "“Seventy-Six Trombones” is a popular marching song, from the musical The Music Man."
+  },
+  77: {
+    saying:
+      "Trombones. OR Was she worth it? OR Two little crutches. OR Sunset Strip.",
+    explanation:
+      "“Seventy-Six Trombones” is a popular marching song, from the musical The Music Man. OR This refers to the pre-decimal price of a marriage licence in Britain, 7/6d. The players shout back “Every Penny”. OR The number 7 looks like a crutch. OR From the 1960s television series “77 Sunset Strip”. Usually sung by the players."
+  },
+  78: {
+    saying: "39 more steps.",
+    explanation: "39 + 39 = 78. Refer to 39 being “39 steps” above."
+  },
+  79: {
+    saying: "One More Time.",
+    explanation: "It rhymes."
+  },
+  80: {
+    saying: "Gandhi’s Breakfast.",
+    explanation: "Ate nothing."
+  },
+  81: {
+    saying: "Fat Lady with a walking stick.",
+    explanation:
+      "The number 8 is supposed to visually represent a lady with ample bosom and hips, while the number 1 is supposed to visually represent a walking stick."
+  },
+  82: {
+    saying: "Straight On Through. OR Fat lady with a duck.",
+    explanation: "Referenced to travelling. OR 8 is a fat lady, 2 is a duck."
+  },
+  83: {
+    saying: "Time for Tea.",
+    explanation: "It rhymes."
+  },
+  84: {
+    saying: "Seven dozen.",
+    explanation: "7 x 12 = 84."
+  },
+  85: {
+    saying: "Staying alive.",
+    explanation: "Rhymes with “(Eighty) Five”."
+  },
+  86: {
+    saying: "Between the sticks.",
+    explanation:
+      "Rhymes with “(Eighty) Six”. Refers to the position of goalkeeper in football."
+  },
+  87: {
+    saying: "Torquay in Devon.",
+    explanation:
+      "Rhymes with “(Eighty) Seven. Torquay which is in the county of Devon, rather than one of several other Torquays which were elsewhere in the British Empire."
+  },
+  88: {
+    saying: "Two Fat Ladies.",
+    explanation:
+      "The number 88 visually represents a lady next to another lady. Players can reply with “Wobble, wobble”."
+  },
+  89: {
+    saying: "Nearly there.",
+    explanation: "89 is one away from 90 (the end of the bingo numbers)."
+  },
+  90: {
+    saying: "Top of the shop.",
+    explanation: "90 is the highest (top) number in bingo."
   }
-
-  // 60	Grandma's getting frisky	Pretty close to a rhyme with 'sixty'
-  // Sixty-One: Bakers Bun
-  // 62	Tickety-boo	Rhymes with "(Sixty) Two"
-  // Sixty-Three: Tickle Me
-  // 64	Almost retired	A reference to the former British male age of mandatory retirement - specifically being one year away from it.
-  // 65	Retirement age, Stop work[2]	A reference to the former male British age of mandatory retirement.
-  // 66	Clickety click[5]	Rhymes with "(Sixty) Six"
-  // 67	Stairway to Heaven	Coined by Andrew "CIP" Lavelle
-  // 68	Pick a Mate	Coined by Edward James Mackey II
-  // 69	Anyway up, Meal for Two, A Favourite of mine[2]	A possible reference to the 69 sex position.
-  // Seventy: Three Score and 10
-  // 71	Bang on the Drum[2]	Rhymes with "(Seventy) One"
-  // 72	Danny La Rue[2]	Rhymes with "(Seventy) Two"
-  // 73	Queen Bee. Under The Tree. Lucky 3[10]	Rhymes with "(Seventy) Three"
-  // 74	Hit the Floor	Coined by Ann Fitzsimons
-  // Seventy-Five: Strive and Strive
-  // 76	Trombones[11]	"Seventy-Six Trombones" is a popular marching song, from the musical The Music Man.
-  // Was she worth it?	This refers to the pre-decimal price of a marriage licence in Britain, 7/6d. The players shout back "Every Penny"
-  // 77	Two little crutches[11]
-  // Sunset Strip	From the 1960s television series "77 Sunset Strip". Usually sung by the players.
-  // 78	39 more steps	39 + 39 = 78. Refer to 39 being "39 steps" above.
-  // Seventy-Nine: One More Time
-  // 80	Gandhi's Breakfast	"Ate nothing"
-  // 81	Fat Lady with a walking stick	The number 8 is supposed to visually represent a lady with ample bosom and hips, while the number 1 is supposed to visually represent a walking stick
-  // Eighty-Two: Straight On Through: referenced to travelling, but also known as a “fat lady with a duck”, which relates to the images the numbers can and have earlier represented.
-  // 83	Time for Tea	Rhymes and scans[12]
-  // 84	Seven dozen	7 x 12 = 84. Refer to 12 being "a dozen" above
-  // 85	Staying alive[13]	Rhymes with "(Eighty) Five"
-  // 86	Between the sticks	Rhymes with "(Eighty) Six". Refers to the position of goalkeeper in football.
-  // 87	Torquay in Devon	Rhymes with "(Eighty) Seven". Torquay which is in the county of Devon, rather than one of several other Torquays which were elsewhere in the British Empire.
-  // 88	Two Fat Ladies[14]	The number 88 visually represents a lady next to another lady. Refer to 81 above. Players can reply with 'Wobble, wobble.'
-  // 89	Nearly there	89 is one away from 90 (the end of the bingo numbers).
-  // Almost there
-  // 90	Top of the shop[4]	90 is the highest (top) number in bingo. Shop refers to the entire game of bingo (and also rhymes with "top").
 };

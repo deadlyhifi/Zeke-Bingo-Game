@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html,
 body {
   width: 100%;
@@ -8,7 +12,7 @@ body {
   margin: 0;
   text-align: center;
   background-color: lightblue;
-  font-family: "Times New Roman", Times, serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 1.5rem;
 }
 
@@ -23,7 +27,6 @@ h1,
 h2 {
   margin: 20px auto;
   text-align: center;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 section {
@@ -31,28 +34,44 @@ section {
   margin: auto;
 }
 
+.bingo {
+  width: 80%;
+  margin: 0 auto 10px auto;
+  padding: 10px;
+  border: 5px solid green;
+  background-color: lightskyblue;
+  border-radius: 5px;
+  position: relative;
+}
+
+#previous-numbers-counter {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+
 #start-game {
   font-size: 3rem;
 }
 
-#random-number {
-  font-size: 6rem;
-  width: 6rem;
-  height: 6rem;
-  line-height: 6rem;
+#random-number.started {
+  font-size: 100px;
+  width: 160px;
+  height: 160px;
+  line-height: 1em;
   background: red;
   display: inline-block;
   padding: 20px;
   border-radius: 50%;
-  border: 10px solid blue;
+  border: 10px solid green;
 }
 
 #previous-numbers {
   width: 80%;
   margin: 0 auto 10px auto;
   padding: 10px;
-  background: white;
-  border: 5px solid hotpink;
+  background-color: lightskyblue;
+  border: 5px solid green;
   border-radius: 5px;
 }
 

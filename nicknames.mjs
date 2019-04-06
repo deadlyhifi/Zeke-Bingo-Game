@@ -90,7 +90,7 @@ export default {
     explanation: "The traditional age of majority."
   },
   22: {
-    saying: "Two little swans.",
+    saying: "Two little ducks.",
     explanation:
       "The numeral 22 resembles the profile of two ducks. Response is often “quack, quack, quack”."
   },

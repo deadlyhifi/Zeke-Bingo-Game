@@ -1,7 +1,9 @@
 import nicknames from "./nicknames.mjs";
 
 const maxNumber = 90;
-const previous = [];
+let started = false;
+let previous = [];
+let balls;
 
 const startGame = document.getElementById("start-game");
 const randNumberPlaceholder = document.getElementById("random-number");
@@ -13,41 +15,61 @@ const numberExplanationPlaceholder = document.getElementById(
   "number-explanation"
 );
 
-function generateRandomNumber(max = maxNumber) {
-  const number = Math.floor(Math.random() * Math.floor(max - 1)) + 1;
-  numberSayingPlaceholder.innerHTML = "";
-  numberExplanationPlaceholder.innerHTML = "";
+const generateBalls = () => {
+  const total = Array.from(Array(maxNumber + 1).keys());
+  total.shift(); // Remove 0 from array
 
-  randNumberPlaceholder.setAttribute("class", "started");
+  return total;
+};
 
-  if (previous.includes(number)) {
-    console.log("repeated: ", number);
-    generateRandomNumber();
-  } else {
-    previous.push(number);
-    // console.log(nicknames[number]);
+function generateRandomNumber() {
+  // Start of the game
+  if (!started) {
+    started = true;
+    balls = generateBalls();
+    startGame.remove();
 
-    randNumberPlaceholder.innerHTML = number;
+    randNumberPlaceholder.setAttribute("class", "started");
+    generateButton.innerHTML = "Pick Bingo Ball";
+  }
 
-    if (nicknames[number]) {
-      numberSayingPlaceholder.innerHTML = nicknames[number].saying;
-      numberExplanationPlaceholder.innerHTML = nicknames[number].explanation;
-    }
+  // End of the game
+  if (balls.length < 1) {
+    started = false;
+    previous = [];
 
-    prevNumbersCounter.innerHTML = previous.length;
-    prevNumbersPlaceholder.innerHTML = previous.join(", ");
+    randNumberPlaceholder.setAttribute("class", "");
+    randNumberPlaceholder.innerHTML = "Game Over!";
+    numberSayingPlaceholder.innerHTML = "";
+    numberExplanationPlaceholder.innerHTML = "";
+    prevNumbersPlaceholder.innerHTML = "";
+    generateButton.innerHTML = "Start a New Game";
 
     return;
   }
+
+  const pick = balls[Math.floor(Math.random() * balls.length)];
+  const index = balls.indexOf(pick);
+  if (index > -1) {
+    balls.splice(index, 1);
+  }
+  previous.push(pick);
+
+  numberSayingPlaceholder.innerHTML = "";
+  numberExplanationPlaceholder.innerHTML = "";
+  randNumberPlaceholder.innerHTML = pick;
+
+  if (nicknames[pick]) {
+    numberSayingPlaceholder.innerHTML = nicknames[pick].saying;
+    numberExplanationPlaceholder.innerHTML = nicknames[pick].explanation;
+  }
+
+  prevNumbersCounter.innerHTML = previous.length;
+  prevNumbersPlaceholder.innerHTML = previous.join(", ");
+
+  return;
 }
 
 generateButton.addEventListener("click", () => {
-  startGame.remove();
   generateRandomNumber();
 });
-
-/**
- * Generate array with 90 numbers
- * every click pull a random array entry
- * remove that number from the array
- */

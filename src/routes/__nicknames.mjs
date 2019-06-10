@@ -1,4 +1,4 @@
-export default {
+  export default {
   1: {
     saying: "Kelly’s Eye kai.",
     explanation:

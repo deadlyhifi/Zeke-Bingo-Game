@@ -55,19 +55,20 @@ function resetGame() {
 		margin: 0 auto;
 	}
 
-	h1, h2, h3 {
+	h1, h2 {
 		font-size: 2.8em;
 		text-transform: uppercase;
 		font-weight: 100;
 		margin: 0 0 0.5em 0;
 	}
 
-	h3 {
-		font-size: 1em;
-	}
-
 	.results {
 		margin: 0 0 0.5em 0;
+		padding: 0.5em 1em;
+		background-color: #fff4f4;
+		box-shadow: inset 0px 0px 2em #ffe1e1;
+		border: 2px solid #ffd7d7;
+		border-radius: 3px
 	}
 
 	ul {
@@ -76,12 +77,13 @@ function resetGame() {
 		list-style: none;
 		display: grid;
 		grid-gap: 3px;
-		grid-template-columns: repeat(12, 1fr);
+		grid-template-columns: repeat(auto-fill, minmax(36px, 1fr));
 	}
 
 	li {
-		border: 1px solid #999;
+		border: 1px solid #ffd7d7;
 		border-radius: 3px;
+		box-shadow: inset 0px 0px 2em #ffe1e1;
 	}
 
 	@media (min-width: 480px) {
@@ -95,6 +97,11 @@ function resetGame() {
 
 	p {
 		margin: 0 0 0.5em 0;
+	}
+
+	p span {
+		color: rgb(141, 141, 141);
+		font-style: italic;
 	}
 
 	button {
@@ -127,9 +134,8 @@ function resetGame() {
 		{:else}
 			<button on:click={playGame}>Start New Game</button>
 		{/if}
-		<h3>The Story so Far...</h3>
 		<div class="results">
-			<p>Remaining Balls: {remainingBalls.length}</p>
+			<p><span>Remaining Balls:</span> {remainingBalls.length}</p>
 			<ul>
 				{#each previousBalls as ball}
 					<li>{ball}</li>

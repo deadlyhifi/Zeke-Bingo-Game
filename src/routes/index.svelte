@@ -62,6 +62,16 @@ function resetGame() {
 		margin: 0 0 0.5em 0;
 	}
 
+	h1.ball {
+		line-height: 1.5em;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 3px;
+    width: 1.5em;
+    height: 1.5em;
+	}
+
 	.results {
 		margin: 0 0 0.5em 0;
 		padding: 0.5em 1em;
@@ -89,9 +99,6 @@ function resetGame() {
 	@media (min-width: 480px) {
 		h1 {
 			font-size: 4em;
-		}
-		h3 {
-			font-size: 1.5em;
 		}
 	}
 
@@ -123,7 +130,11 @@ function resetGame() {
 </svelte:head>
 
 <div class="bingo">
-	<h1>{yetToStart ? 'Zeke’s Bingo Game' : pickedBall}</h1>
+	{#if yetToStart}
+		<h1>Zeke’s Bingo Game</h1>
+	{:else}
+		<h1 class="ball">{pickedBall}</h1>
+	{/if}
 	<h2>{!yetToStart && !inGame ? 'Game Over' : ''}</h2>
 
 	{#if yetToStart}

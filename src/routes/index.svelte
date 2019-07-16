@@ -53,16 +53,41 @@ function resetGame() {
 		margin: 0 auto;
 	}
 
-	h1, h2 {
+	h1, h2, h3 {
 		font-size: 2.8em;
 		text-transform: uppercase;
 		font-weight: 100;
 		margin: 0 0 0.5em 0;
 	}
 
+	h3 {
+		font-size: 1em;
+	}
+
+	.results {
+		margin: 0 0 0.5em 0;
+	}
+
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		display: grid;
+		grid-gap: 3px;
+		grid-template-columns: repeat(12, 1fr);
+	}
+
+	li {
+		border: 1px solid #999;
+		border-radius: 3px;
+	}
+
 	@media (min-width: 480px) {
 		h1 {
 			font-size: 4em;
+		}
+		h3 {
+			font-size: 1.5em;
 		}
 	}
 
@@ -100,8 +125,15 @@ function resetGame() {
 		{:else}
 			<button on:click={playGame}>Start New Game</button>
 		{/if}
-		<p>Remaining Balls: {remainingBalls.length}</p>
-		<p>Picked Balls: {previousBalls.join(', ')}</p>
+		<h3>The Story so Far...</h3>
+		<div class="results">
+			<p>Remaining Balls: {remainingBalls.length}</p>
+			<ul>
+				{#each previousBalls as ball}
+					<li>{ball}</li>
+				{/each}
+			</ul>
+		</div>
 	{/if}
 
 	{#if !yetToStart && inGame}

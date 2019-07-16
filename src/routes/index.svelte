@@ -38,10 +38,12 @@ function playGame() {
 }
 
 function resetGame() {
-	yetToStart = true;
-	inGame = false;
-	pickedBall = '';
-  previousBalls = [];
+	if (window.confirm("Are you sure you want to reset?")) {
+		yetToStart = true;
+		inGame = false;
+		pickedBall = '';
+		previousBalls = [];
+	}
 }
 </script>
 

@@ -39,7 +39,7 @@
   }
 
   function resetGame() {
-    if (window.confirm("Are you sure you want to reset?")) {
+    if (window.confirm("Are you sure you want to restart?")) {
       yetToStart = true;
       inGame = false;
       pickedBall = "";
